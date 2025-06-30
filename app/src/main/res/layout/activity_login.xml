@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ededec"
+    tools:context=".LoginActivity">
+
+
+
+    <ImageView
+        android:layout_width="160dp"
+        android:layout_height="160dp"
+        android:background="@drawable/login_logo"
+        android:layout_gravity="center"
+        android:layout_marginTop="60dp"
+        >
+
+    </ImageView>
+
+
+    <EditText
+        android:layout_width="320dp"
+        android:layout_height="80dp"
+        android:layout_gravity="center"
+        android:hint="Correo Electronico"
+        android:id="@+id/etEmail">
+
+    </EditText>
+
+    <EditText
+        android:layout_width="320dp"
+        android:layout_height="80dp"
+        android:layout_gravity="center"
+        android:hint="Contraseña"
+        android:inputType="textPassword"
+        android:id="@+id/etPassword">
+
+    </EditText>
+
+
+    <TextView
+        android:layout_width="320dp"
+        android:layout_height="40dp"
+        android:visibility="invisible"
+        android:id="@+id/tvError"
+        android:textColor="@color/red"
+        android:layout_marginTop="20dp"
+        android:layout_gravity="center"
+        android:textAlignment="center"
+        >
+
+    </TextView>
+
+
+    <Button
+        android:layout_width="200dp"
+        android:layout_height="60dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="30dp"
+        android:text="Entrar"
+        android:id="@+id/btnLogin">
+
+    </Button>
+
+
+    <Button
+        android:layout_width="200dp"
+        android:layout_height="60dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="30dp"
+        android:text="Registrar"
+        android:textStyle="bold"
+        android:background="@android:color/transparent"
+        android:textColor="@color/black"
+        android:id="@+id/btnGoRegister">
+
+    </Button>
+
+
+
+
+</LinearLayout>

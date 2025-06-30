@@ -19,5 +19,5 @@ dependencyResolutionManagement {
     }
 }
 
-rootProject.name = "PracticaSQL_GarciaSergio"
+rootProject.name = "PracticaAutenticacionGarciaSergio"
 include(":app")

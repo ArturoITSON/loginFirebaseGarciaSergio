@@ -1,4 +1,4 @@
-package garcia.sergio.practicasql_garciasergio
+package garcia.sergio.practicaautenticaciongarciasergio
 
 import org.junit.Test
 

@@ -1,4 +1,4 @@
-package garcia.sergio.practicasql_garciasergio
+package garcia.sergio.practicaautenticaciongarciasergio
 
 import androidx.test.platform.app.InstrumentationRegistry
 import androidx.test.ext.junit.runners.AndroidJUnit4
@@ -19,6 +19,6 @@ class ExampleInstrumentedTest {
     fun useAppContext() {
         // Context of the app under test.
         val appContext = InstrumentationRegistry.getInstrumentation().targetContext
-        assertEquals("garcia.sergio.practicasql_garciasergio", appContext.packageName)
+        assertEquals("garcia.sergio.practicaautenticaciongarciasergio", appContext.packageName)
     }
 }
